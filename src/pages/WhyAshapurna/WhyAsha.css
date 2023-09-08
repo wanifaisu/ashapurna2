@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,800;1,300;1,600;1,800;1,900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:poppins sans-serif!important;
+}
+.whyAshapurna{
+    width: 100%;
+    height: 600px;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 5rem 0;
+    margin-bottom: 250px;
+    font-family: Poppins,sans-serif!important;
+}
+.con-head{
+    font-size:16px;
+    color: goldenrod;
+    
+}
+.card-body{
+    margin-left:10px;
+}
+.card:hover{
+    background-color: black;
+    color: white;
+}
+
+.con-headspa{
+    width:80px!important;
+    height:1px!important;
+    display: block;
+    background-color: goldenrod;
+    position: relative;
+    top:-20px;
+    left:92px;
+}
+.Cardimage{
+    width: 60px !important;;
+    height: 52px !important;;
+    overflow: hidden;
+    margin-top: 20px;
+    margin-left:30px;
+}
+.card-title{
+    font-weight: 600;
+    margin: 15px 0px;
+    font-size: 25px;
+    line-height: 1.2;
+
+
+}
+.cardRow{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.titleunderline{
+    width:110px!important;
+    height:1px!important;
+    display: block;
+    background-color: goldenrod;
+}
+.card-text{
+    line-height: 26px;
+    font-size: 14px;
+    color: #5a5a5a!important;
+    margin-top: 15px;
+    font-family: Poppins,sans-serif!important;
+}
+.btn{
+    color:goldenrod;
+    cursor: pointer;
+}
+.card{
+    border-bottom:7px solid goldenrod;
+}
+

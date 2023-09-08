@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif !important;
+
+}
+
+.en{
+  width:1130px!important;
+  margin:auto!important;
+  align-items: center!important;
+  box-shadow: 0px 0px 10px 2px #ccc;
+  padding-top: 30px;
+  border-bottom:5px solid #be8553 ;
+ 
+}
+.btnsub2{
+  width: 100px!important;
+    border: none!important;
+  align-items: center;
+    border-radius: 10px;
+  margin-bottom: 15px!important;
+  color:white!important;
+  background: #be8553!important;
+  border: 1px solid #be8553!important;
+  font-weight:400!important;
+  text-align: center!important;
+}
+.Feature{
+  background-color:#32343b;
+  padding:70px 0px;
+}
+.panchimg img{
+  width: 100%!important;
+  height: auto!important;
+}
+.Fimage img{
+  width: 100%;
+  height: auto;
+}
+.pachpadra p{
+  width:540px;
+  height: 75px!important;;
+  overflow: hidden!important;;
+  margin-top:16px;
+  margin-bottom:32px;
+  font-size: 14px;
+  line-height:24px;
+  color: white!important;
+  text-overflow: ellipsis;
+}
+.panchitem{
+  display: flex!important;
+  flex-direction: row;
+  gap:10px; 
+}
+.panchitem img{
+  width:36px;
+  height:36px; 
+  
+
+}
+.panchitem h4{
+  font-size:16px;
+  color:goldenrod;
+}
+.panchitem p{
+  font-size: 14px;
+  color: white;
+}
+.para p{
+  margin: 0px !important; ;
+}
+.Projects{
+ 
+  background-size: 100% 500px;
+  background-repeat: no-repeat;
+  padding: 5rem 0 6rem;
+  font-family: Poppins,sans-serif;
+}
+
+
+
+@media screen and (min-width: 300px) and (max-width: 991px){
+  .en{
+  display:none!important;
+}
+
+
+
+}
+  
+
+
+

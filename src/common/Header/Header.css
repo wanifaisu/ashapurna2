@@ -1,0 +1,128 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,800;1,300;1,600;1,800;1,900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:poppins sans-serif!important;
+}
+.navbar-brand{
+    margin-right:200px;
+}
+
+.navbar{
+     top:0;
+     left:0;
+     height: 100px;
+    position: fixed !important;
+    z-index:9999 ;
+    background-color: white;
+    width: 100%;
+    transition: 0.3s;
+}
+
+.nav-item{
+    margin: 0px 5px;
+}
+
+select{
+    border:1px solid rgba(0, 0, 0, 0.5) ;
+}
+input{
+    border:1px solid rgba(0, 0, 0, 0.5) ;
+}
+
+
+Link{
+    color:#32343b; ;
+    list-style: none;
+    font-weight:400!important;
+    position: relative;
+    display: block;
+    font-size: 19px!important;
+    font-family:poppins sans-serif!important;
+}
+.navbar:hover li{
+    color:#be8553;
+}
+.dropdown-menu{
+    border-top: 1px solid #be8553;
+    border-bottom: 1px solid #be8553;
+
+}
+
+.dropdown-toggle:hover li{
+    background-color:#e0e0e0;
+    }
+
+.enquire{
+    background-color:#be8553;
+    color: white;
+    padding: 15px 20px;
+    border: none!important;
+    border-radius: 5px;
+}
+.modal{
+    width: 1200px;
+    height: 500px;
+    position: fixed;
+    top:-500px;
+    left:52.5%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    flex-direction: row;
+    
+}
+.cross{
+position: absolute;
+right:75px;
+top:3px;
+z-index: 99999;
+font-size: 45px;
+background-color: white;
+border: none;
+
+}
+
+.show{
+    top:70% !important;
+}
+.popimg{
+    width: 560px;
+    height: auto;
+   }
+.enquireform{
+    width: 580px;
+    height:500px;
+    position: relative;
+    border: 1px solid black;
+    background-color: white;   
+}
+.formHead{
+    font-size:20px;
+    padding-left:10px;
+    padding-top: 20px;
+    font-weight: bolder;
+}
+textarea{
+    margin-left: 10%;
+    border:1px solid rgba(0, 0, 0, 0.50);
+}
+.btnsub{
+    width: 166px!important;
+    border: none!important;
+    align-items: center;
+    padding: 20px 45px!important;
+    border-radius: 10px;
+    margin-bottom: 50px!important;
+    color:white!important;
+    background: #be8553!important;
+    border: 1px solid #be8553!important;
+    font-weight: 400;
+}
+.btnsub:hover{
+    color: #be8553!important;
+    background: transparent!important;
+}
+@media (max-width:998px){
+    
+}

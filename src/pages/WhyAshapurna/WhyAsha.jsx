@@ -7,7 +7,7 @@ import ScrollCards from './ScrollCards';
 
 export function WhyAsha() {
 
-  
+  console.log("first")
     return (
         <>
 <div class="container">

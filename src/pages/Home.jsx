@@ -25,6 +25,7 @@ import F4logo from './Feature/F4logo.webp'
 import { useState } from "react";
 import { WhyAsha } from "./WhyAshapurna/WhyAsha";
 import { Link } from "react-router-dom";
+import ScrollCards from "./WhyAshapurna/ScrollCards";
 function Home() {
   let [input1, setInput1] = useState('');
   let [input2, setInput2] = useState('');
@@ -121,7 +122,6 @@ function Home() {
   return (
     <>
      <Header/>
-   
 <div style={{marginTop:'6rem'}}>
   
       <div className="container" style={{ position: "relative", maxWidth: '1170px', height: '350px', margin: 'auto',}}>
@@ -162,7 +162,6 @@ function Home() {
           </Slider>
           <div className="arrowicon"><ChevronLeftIcon onClick={handlePre} style={{ fontSize: 60, position: "absolute", top: '50%', left: 10, color: "white" }} /></div>
           <div className="arrowicon"><ChevronRightIcon onClick={handleNext} color="red" style={{ fontSize: 60, position: "absolute", top: '50%', right: 10, color: "white" }} /></div>
-
         </div>
       </div>
       </div>
@@ -201,8 +200,8 @@ function Home() {
 
       <AboutHome />
        <WhyAsha />
-
-       <div className='container-fluid Feature py-3'>
+{/* <ScrollCards/> */}
+       {/* <div className='container-fluid Feature py-3'>
          <div className="container">
          <div className="row">
        <div className="col-12 Feature">
@@ -446,25 +445,7 @@ function Home() {
              </div>
            </div>
          </div>
-       </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+       </div> */}
     </>
 
   )

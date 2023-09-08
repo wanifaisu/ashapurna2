@@ -99,37 +99,36 @@ checkstatus=1;
          </Link>
       </li>
 
+      <li className="nav-item">
+        {/* <button className="enquire"  onClick={showmodel}>ENQUIRE</button> */}
+        </li>
+        <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle"  id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+         About us
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#">About us</a>
+          <a class="dropdown-item" href="#">Our Journey</a>
+          <a class="dropdown-item" href="#">Management Speaks</a>
+          <a class="dropdown-item" href="#">Our Team</a>
+          <a class="dropdown-item" href="#">Management Speaks</a>
+        </div>
+      </li>
+     
 
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle"  id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+        Project
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#">Residential</a>
+          <a class="dropdown-item" href="#">Commercial</a>
+          <a class="dropdown-item" href="#">Management Speaks</a>
+          <a class="dropdown-item" href="#">Our Team</a>
+          <a class="dropdown-item" href="#">Management Speaks</a>
+        </div>
+      </li>
       
-      <li className="nav-item dropdown">
-       <Link  className="nav-link dropdown-toggle"id="navbarDropdownMenuLink" data-toggle="dropdown" > About us 
-       <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <Link to="#" class="dropdown-item">About us</Link>
-          <Link to="#" class="dropdown-item">Our Journey</Link>
-          <Link to="#" class="dropdown-item">Management Speaks</Link>
-          <Link to="#" class="dropdown-item">Our Team</Link>
-          <Link to="#" class="dropdown-item">ACSR Social Responsibility</Link>
-          <Link to="#" class="dropdown-item">Newletter</Link>
-          <Link to="#" class="dropdown-item">NRI Corner</Link>
-          <Link to="#" class="dropdown-item">Why Invest in Jodhpur</Link>
-          <Link to="#" class="dropdown-item">Corporate Profile</Link>
-        </div>
-       </Link>
-       </li>
-       <li className="nav-item dropdown">
-       <Link to={'/Project'} className="nav-link dropdown-toggle"id="navbarDropdownMenuLink" data-toggle="dropdown" >Project 
-       <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <Link to="#" class="dropdown-item">Residential</Link>
-          <Link to="#" class="dropdown-item">Commercial</Link>
-          <Link to="#" class="dropdown-item">Rental & lease</Link>
-          <Link to="#" class="dropdown-item">Hospitality</Link>
-          <Link to="#" class="dropdown-item">Education</Link>
-          <Link to="#" class="dropdown-item">Windmills</Link>
-          <Link to="#" class="dropdown-item">NRI Township</Link>
-          <Link to="#" class="dropdown-item">Upcoming Projects</Link>
-        </div>
-       </Link>
-       </li>
        <li className="nav-item">
         <Link to={'/Media'} className="nav-link">Media and Events
          </Link>

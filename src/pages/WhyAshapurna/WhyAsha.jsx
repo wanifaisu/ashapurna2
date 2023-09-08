@@ -3,14 +3,16 @@ import Care from './Care.svg'
 import transparent from './transparent.svg'
 import Hospitality from './Hospitality.svg'
 import Homes from './Homes.svg'
+import ScrollCards from './ScrollCards';
 
 export function WhyAsha() {
+
+  
     return (
         <>
-            <div className="whyAshapurna">
-                <div className='container'style={{height:436}}>
-                    <div className='row' style={{ paddingTop: 50 }}>
-                        <div className='col-lg-4 con'>
+<div class="container">
+  <div class="row">
+  <div className='col-lg-4 con'>
      <div className='contentHead'>
       <h5 className='con-head'>WHY US</h5> 
       <span className='con-headspa'></span>
@@ -19,9 +21,10 @@ export function WhyAsha() {
      <p>Ashapurna Buildcon started its journey in 1996 as a private limited company and within a year the company gained many core values and turned into a limited company.</p>
      
                         </div>
-     <div className='col-lg-8' style={{height:436}}>
+
+                        <div className='col-lg-8' style={{height:436}}>
         <div className='"whyAshapurnaBlocks-wrapper'style={{position:'absolute',height:711}}>
-        <div className='row cardRow'>
+        <div className='row cardRow fullscreen'>
             <div className='col-lg-6'style={{height:360}}>
     <div className="card" my-3 style={{width:350,height:320}}>
   <img className='Cardimage' src={Care} alt="Card image cap"/>
@@ -66,12 +69,14 @@ export function WhyAsha() {
   </div>
 </div> 
 </div>
-</div>  
+</div> 
+
+
 </div>
- </div> 
-                    </div>
-                </div>
-            </div>
+ </div>
+  </div>
+  </div>
+           
         </>
 
 

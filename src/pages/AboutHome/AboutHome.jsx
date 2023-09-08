@@ -10,12 +10,13 @@ import { IncreCounter1, IncreCounter2, IncreCounter3, IncreCounter4, IncreCounte
 
 
 export function AboutHome (){
+
  return(
  <>
    <div className='container-fluid bgAboutHome py-5' >
    <div className='container'>
-    <div className='row' style={{paddingTop:50,position:'relative!important' }}>
-    <div className='col-lg-5 col-md-10'>
+    <div className='row' style={{paddingTop:50}}>
+    <div className='col-lg-5 col-md-10 col-sm-12'>
      <div className='imageAbout'>
        <img src={aboutus} alt='img1' />
      </div>
